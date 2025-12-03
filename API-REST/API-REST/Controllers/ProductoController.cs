@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 using API_REST.Models;
 using API_REST.Models.DTOS;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class ProductosController : ControllerBase
 {
     private readonly DbVentasContext _context;
@@ -113,24 +115,23 @@ public class ProductosController : ControllerBase
     {
         var producto = await _context.Productos.FindAsync(id);
         if (producto == null) return NotFound(new { mensaje = "El Producto no se ha encontrado en los registros" });
-        var exists = await _context.Productos.AnyAsync(p => p.Codigo == dto.Codigo);
+        
+        // Verificar si el código ya existe en otro producto
+        var exists = await _context.Productos.AnyAsync(p => p.Codigo == dto.Codigo && p.Idpro != id);
         if (exists)
-            return StatusCode(500, new { message = "Error", detail = "El código ya existe." });
+            return Conflict(new { message = "El código ya existe en otro producto." });
+        
         producto.Codigo = dto.Codigo;
         producto.Producto1 = dto.NombreProducto;
         producto.Precio = dto.Precio;
         try
         {
             await _context.SaveChangesAsync();
-            // Si todo va bien, retornamos 204 No Content
             return NoContent(); 
         }
         catch (DbUpdateException ex)
         {
-            // Log the exception details (using a logger here is recommended)
             Console.WriteLine(ex.Message);
-
-            // Retornamos 500 Internal Server Error para errores inesperados de la DB
             return StatusCode(500, new { message = "Error interno del servidor", detail = "Ocurrió un error al guardar los cambios en la base de datos." });
         }
     }
