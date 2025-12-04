@@ -1,0 +1,94 @@
+@model List<WEB.Models.ReporteProductosMasVendidosViewModel>
+@{
+    ViewData["Title"] = "Productos Más Vendidos";
+}
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <h2>Reporte: Productos Más Vendidos</h2>
+    </div>
+    <div class="col-md-6 text-end">
+        <a asp-action="Index" class="btn btn-secondary">Volver al Dashboard</a>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <form method="get" class="row g-3">
+            <div class="col-md-3">
+                <label class="form-label">Fecha Inicio</label>
+                <input type="date" name="fechaInicio" class="form-control" value="@ViewBag.FechaInicio?.ToString("yyyy-MM-dd")" />
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">Fecha Fin</label>
+                <input type="date" name="fechaFin" class="form-control" value="@ViewBag.FechaFin?.ToString("yyyy-MM-dd")" />
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">Top</label>
+                <select name="top" class="form-select">
+                    <option value="5" selected="@(ViewBag.Top == 5)">Top 5</option>
+                    <option value="10" selected="@(ViewBag.Top == 10)">Top 10</option>
+                    <option value="20" selected="@(ViewBag.Top == 20)">Top 20</option>
+                    <option value="50" selected="@(ViewBag.Top == 50)">Top 50</option>
+                </select>
+            </div>
+            <div class="col-md-3 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Código</th>
+                        <th>Producto</th>
+                        <th>Cantidad Vendida</th>
+                        <th>Total en Ventas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        int contador = 1;
+                        int totalCantidad = 0;
+                        decimal totalVentas = 0;
+                        
+                        @foreach (var item in Model)
+                        {
+                            totalCantidad += item.CantidadVendida;
+                            totalVentas += item.TotalVentas;
+                            
+                            <tr>
+                                <td><strong>@contador</strong></td>
+                                <td>@item.Codigo</td>
+                                <td>@item.NombreProducto</td>
+                                <td><span class="badge bg-primary">@item.CantidadVendida unidades</span></td>
+                                <td class="text-success"><strong>$@item.TotalVentas.ToString("N2")</strong></td>
+                            </tr>
+                            
+                            contador++;
+                        }
+                        
+                        <tr class="table-info">
+                            <td colspan="3"><strong>TOTALES</strong></td>
+                            <td><strong>@totalCantidad unidades</strong></td>
+                            <td><strong class="text-success">$@totalVentas.ToString("N2")</strong></td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center">No hay datos disponibles para el período seleccionado</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

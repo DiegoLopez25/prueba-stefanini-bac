@@ -1,0 +1,146 @@
+@model WEB.Models.ResumenGeneralViewModel
+@{
+    ViewData["Title"] = "Resumen General";
+}
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <h2>Reporte: Resumen General</h2>
+    </div>
+    <div class="col-md-6 text-end">
+        <a asp-action="Index" class="btn btn-secondary">Volver al Dashboard</a>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <form method="get" class="row g-3">
+            <div class="col-md-4">
+                <label class="form-label">Fecha Inicio</label>
+                <input type="date" name="fechaInicio" class="form-control" value="@ViewBag.FechaInicio?.ToString("yyyy-MM-dd")" />
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Fecha Fin</label>
+                <input type="date" name="fechaFin" class="form-control" value="@ViewBag.FechaFin?.ToString("yyyy-MM-dd")" />
+            </div>
+            <div class="col-md-4 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (Model != null)
+{
+    <div class="row g-4">
+        <div class="col-md-3">
+            <div class="card text-white bg-primary shadow">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-uppercase mb-0">Total Ventas</h6>
+                            <h2 class="mb-0">@Model.TotalVentas</h2>
+                        </div>
+                        <div>
+                            <i class="bi bi-cart-check" style="font-size: 3rem; opacity: 0.5;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-white bg-success shadow">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-uppercase mb-0">Monto Total</h6>
+                            <h2 class="mb-0">$@Model.MontoTotalVentas.ToString("N0")</h2>
+                        </div>
+                        <div>
+                            <i class="bi bi-currency-dollar" style="font-size: 3rem; opacity: 0.5;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-white bg-info shadow">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-uppercase mb-0">Productos Vendidos</h6>
+                            <h2 class="mb-0">@Model.TotalProductosVendidos</h2>
+                        </div>
+                        <div>
+                            <i class="bi bi-box-seam" style="font-size: 3rem; opacity: 0.5;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-white bg-warning shadow">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title text-uppercase mb-0">Promedio/Venta</h6>
+                            <h2 class="mb-0">$@Model.PromedioVenta.ToString("N2")</h2>
+                        </div>
+                        <div>
+                            <i class="bi bi-graph-up" style="font-size: 3rem; opacity: 0.5;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-header bg-dark text-white">
+            <h5 class="mb-0">Detalles del Período</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <table class="table table-borderless">
+                        <tr>
+                            <td><strong>Fecha de Inicio:</strong></td>
+                            <td>@(Model.FechaInicio?.ToString("dd/MM/yyyy") ?? "No especificada")</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fecha de Fin:</strong></td>
+                            <td>@(Model.FechaFin?.ToString("dd/MM/yyyy") ?? "No especificada")</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <table class="table table-borderless">
+                        <tr>
+                            <td><strong>Total de Ventas:</strong></td>
+                            <td>@Model.TotalVentas transacciones</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Monto Total:</strong></td>
+                            <td class="text-success"><strong>$@Model.MontoTotalVentas.ToString("N2")</strong></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-info">
+        No hay datos disponibles para el período seleccionado.
+    </div>
+}
+
+<style>
+    .bi {
+        vertical-align: middle;
+    }
+</style>

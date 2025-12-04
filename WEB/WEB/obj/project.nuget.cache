@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fh9PAJpihMs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\WEB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diego\\.nuget\\packages\\closedxml\\0.104.0\\closedxml.0.104.0.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\closedxml.parser\\1.2.0\\closedxml.parser.1.2.0.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\documentformat.openxml\\3.0.1\\documentformat.openxml.3.0.1.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\documentformat.openxml.framework\\3.0.1\\documentformat.openxml.framework.3.0.1.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\pdfsharpcore\\1.3.32\\pdfsharpcore.1.3.32.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\rbush\\3.2.0\\rbush.3.2.0.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\sixlabors.imagesharp\\1.0.4\\sixlabors.imagesharp.1.0.4.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "WEB depende de ClosedXML (>= 0.103.0), pero no se encontró ClosedXML 0.103.0. ClosedXML 0.104.0 se resolvió en su lugar.",
+      "projectPath": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\WEB.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\WEB.csproj",
+      "libraryId": "ClosedXML",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

@@ -42,8 +42,10 @@ public class ProductosController : ControllerBase
                 Idpro = p.Idpro,
                 Codigo = p.Codigo,
                 NombreProducto = p.Producto1,
-                Precio = p.Precio
+                Precio = p.Precio,
+                SoftDelete = p.DeletedAt
             })
+            .Where(p => p.SoftDelete == null)
             .ToListAsync();
 
         var result = new

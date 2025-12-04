@@ -1,0 +1,241 @@
+@{
+    ViewData["Title"] = "Nueva Venta";
+}
+
+<div class="row">
+    <div class="col-md-10 offset-md-1">
+        <h2>Registrar Nueva Venta</h2>
+
+        <div class="card">
+            <div class="card-body">
+                <div class="mb-3">
+                    <label class="form-label">Buscar Producto por Código</label>
+                    <div id="alertPlaceholder"></div>
+                    <div class="input-group">
+                        <input id="productoCodigo" type="text" class="form-control" placeholder="Escriba el código y presione Enter">
+                        <button type="button" id="btnAgregar" class="btn btn-primary">Agregar</button>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-striped" id="tablaVenta">
+                        <thead>
+                            <tr>
+                                <th>Código</th>
+                                <th>Producto</th>
+                                <th>Cantidad</th>
+                                <th>Precio Unit.</th>
+                                <th>IVA (13%)</th>
+                                <th>Total</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="detallesVenta">
+                        </tbody>
+                        <tfoot>
+                            <tr class="table-secondary">
+                                <td colspan="4" class="text-end"><strong>IVA Total:</strong></td>
+                                <td><strong id="ivaTotal">$0.00</strong></td>
+                                <td colspan="1"></td>
+                            </tr>
+                            <tr class="table-info">
+                                <td colspan="5" class="text-end"><strong>Total General:</strong></td>
+                                <td colspan="2"><strong id="totalGeneral">$0.00</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                    <button type="button" id="btnGuardarVenta" class="btn btn-success">Guardar Venta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        let detalles = [];
+        // Productos pasados desde el servidor
+        const productos = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Productos ?? new List<object>()));
+
+        $(document).ready(function() {
+            function showAlert(message, type = 'danger') {
+                let icon = 'error';
+                let title = 'Error';
+                
+                if (type === 'success') {
+                    icon = 'success';
+                    title = 'Éxito';
+                } else if (type === 'warning') {
+                    icon = 'warning';
+                    title = 'Atención';
+                }
+                
+                Swal.fire({
+                    icon: icon,
+                    title: title,
+                    text: message,
+                    confirmButtonColor: '#D32F2F',
+                    toast: type === 'warning',
+                    position: type === 'warning' ? 'top-end' : 'center',
+                    showConfirmButton: type !== 'warning',
+                    timer: type === 'warning' ? 3000 : undefined,
+                    timerProgressBar: type === 'warning'
+                });
+            }
+
+            $('#productoCodigo').on('keypress', function(e) {
+                if (e.which === 13) { // Enter
+                    e.preventDefault();
+                    $('#btnAgregar').click();
+                }
+            });
+
+            $('#btnAgregar').click(function() {
+                const code = ($('#productoCodigo').val() || '').toString().trim();
+                if (!code) {
+                    showAlert('Ingrese un código de producto', 'warning');
+                    return;
+                }
+
+                // Buscar producto por código (case-insensitive)
+                const producto = productos.find(p => (p.Codigo || '').toString().toLowerCase() === code.toLowerCase());
+
+                if (!producto) {
+                    showAlert('Producto no encontrado', 'warning');
+                    return;
+                }
+
+                const idpro = parseInt(producto.Idpro);
+                const nombre = producto.NombreProducto;
+                const codigo = producto.Codigo;
+                const precio = parseFloat(producto.Precio);
+
+                // Verificar si ya existe: si existe, sumar 1 a la cantidad (comportamiento tipo lector de código de barras)
+                const existe = detalles.find(d => d.idpro === idpro);
+                if (existe) {
+                    existe.cantidad += 1;
+                    existe.iva = existe.precio * existe.cantidad * 0.13;
+                    existe.total = (existe.precio * existe.cantidad) + existe.iva;
+                    actualizarTabla();
+                    $('#productoCodigo').val('').focus();
+                    return;
+                }
+
+                const cantidad = 1;
+                const iva = precio * cantidad * 0.13;
+                const total = (precio * cantidad) + iva;
+
+                detalles.push({
+                    idpro: idpro,
+                    nombre: nombre,
+                    codigo: codigo,
+                    cantidad: cantidad,
+                    precio: precio,
+                    iva: iva,
+                    total: total
+                });
+
+                actualizarTabla();
+                $('#productoCodigo').val('').focus();
+            });
+
+            $(document).on('change', '.cantidad-input', function() {
+                const index = $(this).data('index');
+                const cantidad = parseInt($(this).val()) || 1;
+
+                if (cantidad < 1) {
+                    $(this).val(1);
+                    return;
+                }
+
+                detalles[index].cantidad = cantidad;
+                detalles[index].iva = detalles[index].precio * cantidad * 0.13;
+                detalles[index].total = (detalles[index].precio * cantidad) + detalles[index].iva;
+
+                actualizarTabla();
+            });
+
+            $(document).on('click', '.btn-eliminar', function() {
+                const index = $(this).data('index');
+                detalles.splice(index, 1);
+                actualizarTabla();
+            });
+
+            $('#btnGuardarVenta').click(function() {
+                if (detalles.length === 0) {
+                    showAlert('Debe agregar al menos un producto', 'warning');
+                    return;
+                }
+
+                const venta = {
+                    detalles: detalles.map(d => ({
+                        idpro: d.idpro,
+                        cantidad: d.cantidad,
+                        precio: d.precio,
+                        iva: d.iva,
+                        total: d.total
+                    }))
+                };
+
+                $.ajax({
+                    url: '@Url.Action("Create", "Ventas")',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(venta),
+                    success: function(response) {
+                        if (response.success) {
+                            showAlert(response.message, 'success');
+                            setTimeout(function() { window.location.href = '@Url.Action("Index", "Ventas")'; }, 800);
+                        } else {
+                            showAlert(response.message, 'danger');
+                        }
+                    },
+                    error: function() {
+                        showAlert('Error al guardar la venta', 'danger');
+                    }
+                });
+            });
+        });
+
+        function actualizarTabla() {
+            const tbody = $('#detallesVenta');
+            tbody.empty();
+
+            let totalGeneral = 0;
+            let totalIva = 0;
+
+            detalles.forEach((detalle, index) => {
+                totalGeneral += detalle.total;
+                totalIva += detalle.iva;
+
+                const row = `
+                    <tr>
+                        <td>${detalle.codigo}</td>
+                        <td>${detalle.nombre}</td>
+                        <td>
+                            <input type="number" class="form-control cantidad-input" 
+                                   value="${detalle.cantidad}" min="1" data-index="${index}" 
+                                   style="width: 80px;">
+                        </td>
+                        <td>$${detalle.precio.toFixed(2)}</td>
+                        <td>$${detalle.iva.toFixed(2)}</td>
+                        <td>$${detalle.total.toFixed(2)}</td>
+                        <td>
+                            <button type="button" class="btn btn-sm btn-danger btn-eliminar" data-index="${index}">
+                                Eliminar
+                            </button>
+                        </td>
+                    </tr>
+                `;
+                tbody.append(row);
+            });
+
+            $('#ivaTotal').text('$' + totalIva.toFixed(2));
+            $('#totalGeneral').text('$' + totalGeneral.toFixed(2));
+        }
+    </script>
+}

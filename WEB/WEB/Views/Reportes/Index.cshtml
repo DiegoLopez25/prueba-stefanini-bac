@@ -1,0 +1,97 @@
+@{
+    ViewData["Title"] = "Dashboard de Reportes";
+}
+
+<h2 class="mb-4">Dashboard de Reportes</h2>
+
+<div class="row g-4">
+    <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="bi bi-people-fill text-primary" style="font-size: 3rem;"></i>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5 class="card-title">Ventas por Vendedor</h5>
+                        <p class="card-text text-muted">Análisis de rendimiento por vendedor</p>
+                    </div>
+                </div>
+                <a asp-action="VentasPorVendedor" class="btn btn-primary w-100">Ver Reporte</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="bi bi-box-seam text-success" style="font-size: 3rem;"></i>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5 class="card-title">Productos Más Vendidos</h5>
+                        <p class="card-text text-muted">Top productos por cantidad vendida</p>
+                    </div>
+                </div>
+                <a asp-action="ProductosMasVendidos" class="btn btn-success w-100">Ver Reporte</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="bi bi-calendar3 text-info" style="font-size: 3rem;"></i>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5 class="card-title">Ventas por Fecha</h5>
+                        <p class="card-text text-muted">Análisis temporal de ventas</p>
+                    </div>
+                </div>
+                <a asp-action="VentasPorFecha" class="btn btn-info w-100">Ver Reporte</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="bi bi-graph-up text-warning" style="font-size: 3rem;"></i>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5 class="card-title">Resumen General</h5>
+                        <p class="card-text text-muted">Estadísticas generales del sistema</p>
+                    </div>
+                </div>
+                <a asp-action="ResumenGeneral" class="btn btn-warning w-100">Ver Reporte</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="bi bi-download text-secondary" style="font-size: 3rem;"></i>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5 class="card-title">Exportar Ventas</h5>
+                        <p class="card-text text-muted">Descarga reportes de ventas en Excel o PDF por rango de fechas</p>
+                    </div>
+                </div>
+                <a asp-action="ExportVentas" class="btn btn-secondary w-100">Ir a Exportar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .bi {
+        vertical-align: middle;
+    }
+</style>

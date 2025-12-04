@@ -1,0 +1,96 @@
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\appsettings.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.staticwebassets.runtime.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.staticwebassets.endpoints.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.exe
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.deps.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.runtimeconfig.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.pdb
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.AssemblyInfoInputs.cache
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.AssemblyInfo.cs
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.csproj.CoreCompileInputs.cache
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.RazorAssemblyInfo.cache
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.RazorAssemblyInfo.cs
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.sourcelink.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\scopedcss\bundle\WEB.styles.css
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\scopedcss\projectbundle\WEB.bundle.scp.css
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\refint\WEB.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.pdb
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.genruntimeconfig.cache
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\ref\WEB.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\ClosedXML.Parser.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\PdfSharpCore.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\RBush.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\System.IO.Packaging.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\de\PdfSharpCore.resources.dll
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.csproj.AssemblyReference.cache
+C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.csproj.Up2Date
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\appsettings.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.staticwebassets.runtime.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.staticwebassets.endpoints.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.exe
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.deps.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.runtimeconfig.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\WEB.pdb
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\ClosedXML.Parser.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\PdfSharpCore.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\RBush.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\System.IO.Packaging.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\bin\Debug\net8.0\de\PdfSharpCore.resources.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.AssemblyInfoInputs.cache
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.AssemblyInfo.cs
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.RazorAssemblyInfo.cache
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.RazorAssemblyInfo.cs
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.sourcelink.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\scopedcss\bundle\WEB.styles.css
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\scopedcss\projectbundle\WEB.bundle.scp.css
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.csproj.Up2Date
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\refint\WEB.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.pdb
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\WEB.genruntimeconfig.cache
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\ref\WEB.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\WEB\WEB\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

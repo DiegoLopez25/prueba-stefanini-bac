@@ -568,6 +568,11 @@
           "precio": {
             "type": "number",
             "format": "double"
+          },
+          "softDelete": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
           }
         },
         "additionalProperties": false

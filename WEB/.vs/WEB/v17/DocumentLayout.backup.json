@@ -1,12 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0239280-5A0C-44AC-8819-2F38F84C0A30}|WEB\\WEB.csproj|c:\\users\\diego\\onedrive\\documentos\\proyectos asp.net core\\prueba-stefanini-bac\\web\\web\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0239280-5A0C-44AC-8819-2F38F84C0A30}|WEB\\WEB.csproj|solutionrelative:web\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0239280-5A0C-44AC-8819-2F38F84C0A30}|WEB\\WEB.csproj|c:\\users\\diego\\onedrive\\documentos\\proyectos asp.net core\\prueba-stefanini-bac\\web\\web\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0239280-5A0C-44AC-8819-2F38F84C0A30}|WEB\\WEB.csproj|solutionrelative:web\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0239280-5A0C-44AC-8819-2F38F84C0A30}|WEB\\WEB.csproj|c:\\users\\diego\\onedrive\\documentos\\proyectos asp.net core\\prueba-stefanini-bac\\web\\web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0239280-5A0C-44AC-8819-2F38F84C0A30}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0239280-5A0C-44AC-8819-2F38F84C0A30}|WEB\\WEB.csproj|c:\\users\\diego\\onedrive\\documentos\\proyectos asp.net core\\prueba-stefanini-bac\\web\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0239280-5A0C-44AC-8819-2F38F84C0A30}|WEB\\WEB.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoleAuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "WEB\\Filters\\RoleAuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeToolTip": "WEB\\Filters\\RoleAuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T20:58:42.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "WEB\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\Services\\ApiService.cs",
+              "RelativeToolTip": "WEB\\Services\\ApiService.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T19:43:04.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAACQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T18:13:25.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\appsettings.json",
+              "RelativeDocumentMoniker": "WEB\\appsettings.json",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\WEB\\WEB\\appsettings.json",
+              "RelativeToolTip": "WEB\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-03T17:59:41.278Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

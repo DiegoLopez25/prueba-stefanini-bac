@@ -1,0 +1,81 @@
+@model List<WEB.Models.ReporteVentasPorFechaViewModel>
+@{
+    ViewData["Title"] = "Ventas por Fecha";
+}
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <h2>Reporte: Ventas por Fecha</h2>
+    </div>
+    <div class="col-md-6 text-end">
+        <a asp-action="Index" class="btn btn-secondary">Volver al Dashboard</a>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <form method="get" class="row g-3">
+            <div class="col-md-4">
+                <label class="form-label">Fecha Inicio</label>
+                <input type="date" name="fechaInicio" class="form-control" value="@ViewBag.FechaInicio?.ToString("yyyy-MM-dd")" />
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Fecha Fin</label>
+                <input type="date" name="fechaFin" class="form-control" value="@ViewBag.FechaFin?.ToString("yyyy-MM-dd")" />
+            </div>
+            <div class="col-md-4 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Total de Ventas</th>
+                        <th>Monto Total</th>
+                        <th>Promedio por Venta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        decimal totalGeneral = 0;
+                        int ventasGenerales = 0;
+                        
+                        @foreach (var item in Model)
+                        {
+                            totalGeneral += item.MontoTotal;
+                            ventasGenerales += item.TotalVentas;
+                            
+                            <tr>
+                                <td><strong>@item.Fecha.ToString("dd/MM/yyyy")</strong></td>
+                                <td>@item.TotalVentas</td>
+                                <td class="text-success"><strong>$@item.MontoTotal.ToString("N2")</strong></td>
+                                <td>$@((item.TotalVentas > 0 ? item.MontoTotal / item.TotalVentas : 0).ToString("N2"))</td>
+                            </tr>
+                        }
+                        
+                        <tr class="table-info">
+                            <td><strong>TOTALES</strong></td>
+                            <td><strong>@ventasGenerales</strong></td>
+                            <td><strong class="text-success">$@totalGeneral.ToString("N2")</strong></td>
+                            <td><strong>$@((ventasGenerales > 0 ? totalGeneral / ventasGenerales : 0).ToString("N2"))</strong></td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="text-center">No hay datos disponibles para el período seleccionado</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

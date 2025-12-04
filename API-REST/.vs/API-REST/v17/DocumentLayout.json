@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|c:\\users\\diego\\onedrive\\documentos\\proyectos asp.net core\\prueba-stefanini-bac\\api-rest\\api-rest\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|solutionrelative:api-rest\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|c:\\users\\diego\\onedrive\\documentos\\proyectos asp.net core\\prueba-stefanini-bac\\api-rest\\api-rest\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|solutionrelative:api-rest\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|c:\\users\\diego\\onedrive\\documentos\\proyectos asp.net core\\prueba-stefanini-bac\\api-rest\\api-rest\\models\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|solutionrelative:api-rest\\models\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|c:\\users\\diego\\onedrive\\documentos\\proyectos asp.net core\\prueba-stefanini-bac\\api-rest\\api-rest\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|solutionrelative:api-rest\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|c:\\users\\diego\\onedrive\\documentos\\proyectos asp.net core\\prueba-stefanini-bac\\api-rest\\api-rest\\models\\dbventascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|solutionrelative:api-rest\\models\\dbventascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|c:\\users\\diego\\onedrive\\documentos\\proyectos asp.net core\\prueba-stefanini-bac\\api-rest\\api-rest\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|solutionrelative:api-rest\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|c:\\users\\diego\\onedrive\\documentos\\proyectos asp.net core\\prueba-stefanini-bac\\api-rest\\api-rest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3ACBA0A7-BDE3-4863-8FF4-966B08A151DE}|API-REST\\API-REST.csproj|solutionrelative:api-rest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "API-REST\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Models\\Producto.cs",
+              "RelativeToolTip": "API-REST\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:38:53.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Models\\DTOS\\ProductoDTO.cs",
+              "RelativeDocumentMoniker": "API-REST\\Models\\DTOS\\ProductoDTO.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Models\\DTOS\\ProductoDTO.cs",
+              "RelativeToolTip": "API-REST\\Models\\DTOS\\ProductoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:35:21.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "API-REST\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "API-REST\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:02:30.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VentasController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Controllers\\VentasController.cs",
+              "RelativeDocumentMoniker": "API-REST\\Controllers\\VentasController.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Controllers\\VentasController.cs",
+              "RelativeToolTip": "API-REST\\Controllers\\VentasController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:02:27.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Models\\Venta.cs",
+              "RelativeDocumentMoniker": "API-REST\\Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Models\\Venta.cs",
+              "RelativeToolTip": "API-REST\\Models\\Venta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:02:18.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbVentasContext.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Models\\DbVentasContext.cs",
+              "RelativeDocumentMoniker": "API-REST\\Models\\DbVentasContext.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\Models\\DbVentasContext.cs",
+              "RelativeToolTip": "API-REST\\Models\\DbVentasContext.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwF0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:57:21.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\appsettings.json",
+              "RelativeDocumentMoniker": "API-REST\\appsettings.json",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\proyectos asp.net core\\prueba-stefanini-bac\\API-REST\\API-REST\\appsettings.json",
+              "RelativeToolTip": "API-REST\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T02:14:06.534Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

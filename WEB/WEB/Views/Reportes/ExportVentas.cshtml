@@ -1,0 +1,54 @@
+@{
+    ViewData["Title"] = "Exportar Ventas";
+}
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <h2>Exportar Ventas por Rango de Fechas</h2>
+
+        <div class="card">
+            <div class="card-body">
+                <form id="exportForm" method="post">
+                    <div class="row g-3">
+                        <div class="col-md-5">
+                            <label class="form-label">Fecha Inicio</label>
+                            <input type="date" name="fechaInicio" class="form-control" />
+                        </div>
+                        <div class="col-md-5">
+                            <label class="form-label">Fecha Fin</label>
+                            <input type="date" name="fechaFin" class="form-control" />
+                        </div>
+                        <div class="col-md-2 d-flex align-items-end">
+                            <button type="button" id="btnExcel" class="btn btn-outline-success me-2">Exportar Excel</button>
+                            <button type="button" id="btnPdf" class="btn btn-outline-primary">Exportar PDF</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="mt-3">
+            <a asp-action="Index" asp-controller="Reportes" class="btn btn-secondary">Volver</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('#btnExcel').click(function() {
+                const form = $('#exportForm');
+                form.attr('action', '@Url.Action("ExportVentasExcel", "Reportes")');
+                form.attr('method', 'post');
+                form.submit();
+            });
+
+            $('#btnPdf').click(function() {
+                const form = $('#exportForm');
+                form.attr('action', '@Url.Action("ExportVentasPdf", "Reportes")');
+                form.attr('method', 'post');
+                form.submit();
+            });
+        });
+    </script>
+}

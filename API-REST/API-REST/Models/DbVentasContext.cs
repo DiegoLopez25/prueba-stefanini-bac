@@ -90,8 +90,8 @@ public partial class DbVentasContext : DbContext
                 .HasColumnName("producto");
         });
 
-         modelBuilder.Entity<Producto>()
-        .HasQueryFilter(p => p.DeletedAt == null);
+        // modelBuilder.Entity<Producto>()
+        //.HasQueryFilter(p => p.DeletedAt == null);
 
         modelBuilder.Entity<TipoUsuario>(entity =>
         {

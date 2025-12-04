@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center mb-5">
+    <h1 class="display-4">Bienvenido al Sistema de Ventas</h1>
+    <p class="lead">Gestión integral de productos, ventas y reportes</p>
+</div>
+
+<div class="row g-4">
+    <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+                <i class="bi bi-box-seam text-primary" style="font-size: 4rem;"></i>
+                <h5 class="card-title mt-3">Productos</h5>
+                <p class="card-text">Administra el catálogo completo de productos disponibles para la venta.</p>
+                <a asp-controller="Productos" asp-action="Index" class="btn btn-primary">Ir a Productos</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+                <i class="bi bi-cart-check text-success" style="font-size: 4rem;"></i>
+                <h5 class="card-title mt-3">Ventas</h5>
+                <p class="card-text">Registra nuevas ventas y consulta el historial de transacciones realizadas.</p>
+                <a asp-controller="Ventas" asp-action="Index" class="btn btn-success">Ir a Ventas</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+                <i class="bi bi-graph-up text-info" style="font-size: 4rem;"></i>
+                <h5 class="card-title mt-3">Reportes</h5>
+                <p class="card-text">Analiza estadísticas y genera reportes detallados del desempeño del negocio.</p>
+                <a asp-controller="Reportes" asp-action="Index" class="btn btn-info">Ir a Reportes</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-12">
+        <div class="card bg-light">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="bi bi-info-circle text-info"></i> Información del Usuario
+                </h5>
+                <p class="mb-1"><strong>Usuario:</strong> @ViewBag.Usuario</p>
+                <p class="mb-0"><strong>Tipo de Usuario:</strong> <span class="badge bg-primary">@ViewBag.TipoUsuario</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .bi {
+        vertical-align: middle;
+    }
+</style>

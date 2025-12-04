@@ -124,13 +124,7 @@ C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\A
 C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\API-REST.sourcelink.json
 C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\staticwebassets\msbuild.API-REST.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\staticwebassets\msbuild.build.API-REST.props
-C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API-REST.props
-C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API-REST.props
-C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\scopedcss\bundle\API-REST.styles.css
-C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\API-REST.csproj.CopyComplete
 C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\API-REST.dll
 C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\refint\API-REST.dll
 C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\API-REST.pdb
@@ -279,3 +273,12 @@ C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\API-REST\API-REST
 C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\API-REST.genruntimeconfig.cache
 C:\Users\arand\Documents\proyectos\dotnet\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\ref\API-REST.dll
 C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\bin\Debug\net8.0\API-REST.staticwebassets.endpoints.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\API-REST.csproj.Up2Date
+C:\Users\diego\OneDrive\Documentos\proyectos asp.net core\prueba-stefanini-bac\API-REST\API-REST\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

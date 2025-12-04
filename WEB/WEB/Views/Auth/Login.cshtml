@@ -1,0 +1,83 @@
+@model WEB.Models.LoginViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Sistema de Ventas</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        body {
+            background: #FFFFFF;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-container {
+            max-width: 400px;
+            width: 100%;
+        }
+        .login-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            padding: 40px;
+            border: 1px solid #E0E0E0;
+        }
+        .login-title {
+            color: #D32F2F;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-card">
+            <h2 class="login-title">Sistema de Ventas</h2>
+            
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewBag.Error
+                </div>
+            }
+
+            <form asp-action="Login" method="post">
+                <div class="mb-3">
+                    <label asp-for="Usuario" class="form-label">Usuario</label>
+                    <input asp-for="Usuario" class="form-control" placeholder="Ingrese su usuario" required />
+                    <span asp-validation-for="Usuario" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label">Contraseña</label>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Ingrese su contraseña" required />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">Iniciar Sesión</button>
+                </div>
+            </form>
+
+            <div class="mt-4 text-center">
+                <small class="text-muted">
+                    Credenciales de prueba:<br>
+                    <strong>admin / admin</strong> o <strong>operador / 1234</strong>
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
