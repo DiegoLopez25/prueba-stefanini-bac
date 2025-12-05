@@ -45,7 +45,7 @@ BEGIN
             codigo VARCHAR(75) NOT NULL UNIQUE,
             producto VARCHAR(255) NOT NULL,
             precio DECIMAL(12,2) NOT NULL,
-            delete_at DATETIME NULL
+            deleted_at DATETIME NULL
         );
     END;
 
